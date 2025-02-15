@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de Espera - Hospitales de Cataluña</title>
+    <link rel="stylesheet" href="css.css"> <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/3209/3209265.png" alt="Logo de MediGest">
+            MediGest
+        </div>
+        <div class="subtitle">"Gestión eficiente para hospitales"</div>
+    </div>
+
+    <h1>Listas de Espera en Hospitales</h1>
+
+    <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-bar" placeholder="Buscar información...">
+    </div>
+
+    <span id="notification-icon" class="notification-icon">🔔 Notificaciones</span>
+
+    <section id="objetivos">
+        <h2>Objetivos</h2>
+        <p>El objetivo de esta página es proporcionar información clara y precisa sobre las listas de espera en hospitales de Cataluña, facilitando la gestión eficiente de los tiempos de espera. Los objetivos específicos incluyen:</p>
+        <ul>
+            <li><strong>Construir una base de datos de pacientes:</strong> Para utilizarlas en futuras campañas de marketing.</li>
+            <li><strong>Fidelizar a los clientes:</strong> Para que los pacientes puedan acceder a los productos y servicios que se ofrecen.</li>
+            <li><strong>Mantener informados a los usuarios sobre las listas de espera:</strong> Con actualizaciones periódicas sobre el estado de las listas de espera.</li>
+        </ul>
+    </section>
+
+    <section id="a-qui%C3%A9n-va-dirigido">
+        <h2>¿A Quién va Dirigido?</h2>
+        <p>Esta página está dirigida a hospitales y profesionales de la salud, así como al servicio de los pacientes que desean conocer y gestionar su tiempo de espera de manera eficiente.</p>
+    </section>
+    <section>
+        <h2>Factores Dinámicos</h2>
+        <button class="collapsible">Variabilidad en la Demanda</button>
+        <div class="content"><p>Los tiempos de espera fluctúan según la demanda de atención médica.</p></div>
+        <button class="collapsible">Recursos Disponibles</button>
+        <div class="content"><p>La cantidad de médicos, quirófanos y equipos afecta las listas de espera.</p></div>
+        <button class="collapsible">Prioridad de Pacientes</button>
+        <div class="content"><p>Se priorizan casos urgentes, afectando los tiempos de espera de otros pacientes.</p></div>
+    </section>
+
+    <div class="footer">
+        <p id="location"></p>
+        <a href="#">Idioma</a>
+        <a href="#">Configuración</a>
+        <a href="#">Privacidad</a>
+    </div>
+
+<div class="language-select">
+    <label for="language">Idioma:</label>
+    <select id="language">
+        <option value="ca">Català</option>
+        <option value="es">Castellano</option>
+        <option value="en">English</option>
+        <option value="pt">Português</option>
+        <option value="fr">Français</option>
+        <option value="ar">العربية</option>
+        <option value="zh">中文</option>
+    </select>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
